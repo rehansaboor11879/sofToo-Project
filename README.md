@@ -5,3 +5,4 @@ MERN E-COMMERCE
 3: Create React App
 4: Create Git Repositry
 5: Create Products list with jsx
+6: Add Router in Project
