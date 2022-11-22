@@ -6,3 +6,4 @@ MERN E-COMMERCE
 4: Create Git Repositry
 5: Create Products list with jsx
 6: Add Router in Project
+7: Create Own server
