@@ -31,7 +31,7 @@ const data = {
       countInStack: 15,
       brand: 'Nike',
       rating: 4.0,
-      description: 'high quality shirt',
+      description: 'high quality pants',
     },
     {
       name: 'Adidas Fit Pant',
@@ -42,7 +42,7 @@ const data = {
       countInStack: 10,
       brand: 'Adidas',
       rating: 4.5,
-      description: 'high quality shirt',
+      description: 'high quality pants',
     },
   ],
 };
