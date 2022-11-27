@@ -7,11 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .site-container {
   min-height: 100vh;
 }
@@ -19,6 +14,21 @@ body {
 main {
   flex: 1;
 }
+
+.btn-primary {
+  background-color: #f0c040;
+  color: black;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rating span {
+  color: #ffc000;
+}
+
 .product {
   border: 1px #404040 solid;
   margin: 1rem;
@@ -31,4 +41,8 @@ main {
 
 product-info {
   padding: 1rem;
+}
+
+.img-large {
+  max-width: 100%;
 }

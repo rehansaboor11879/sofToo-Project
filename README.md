@@ -10,3 +10,5 @@ MERN E-COMMERCE
 8: Get Data from own server
 9: Update State using reducer and check state failuire.
 10.Add Bootstrap in Project
+11.Add two more Components product and rating components and font awesome.
+12.Add Product Detail Page
