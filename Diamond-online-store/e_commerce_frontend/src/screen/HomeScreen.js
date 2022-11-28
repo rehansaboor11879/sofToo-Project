@@ -59,7 +59,7 @@ const HomeScreen = () => {
           {loading ? (
             <LoadingBox />
           ) : error ? (
-            <MessageBox variant="danger" child={error} />
+            <MessageBox variant="danger">{error}</MessageBox>
           ) : (
             products.map((product) => {
               return (
