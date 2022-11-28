@@ -46,3 +46,7 @@ product-info {
 .img-large {
   max-width: 100%;
 }
+
+.img-thumbnail {
+  height: 80px;
+}

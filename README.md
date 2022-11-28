@@ -15,3 +15,4 @@ MERN E-COMMERCE
 13.Add Loading Page and Message Page if any error
 14.Add Add to cart function on button
 15.Add check stock status
+16.Add Add to cart page
