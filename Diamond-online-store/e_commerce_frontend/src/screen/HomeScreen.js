@@ -4,6 +4,8 @@ import logger from 'use-reducer-logger';
 import { Row, Col } from 'react-bootstrap';
 import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 // import data from '../data';
 
 const reducer = (state, action) => {
@@ -55,9 +57,9 @@ const HomeScreen = () => {
       <div className="products">
         <Row>
           {loading ? (
-            <div>loading...</div>
+            <LoadingBox />
           ) : error ? (
-            <div>{error}</div>
+            <MessageBox variant="danger" child={error} />
           ) : (
             products.map((product) => {
               return (

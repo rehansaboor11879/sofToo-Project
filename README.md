@@ -12,3 +12,6 @@ MERN E-COMMERCE
 10.Add Bootstrap in Project
 11.Add two more Components product and rating components and font awesome.
 12.Add Product Detail Page
+13.Add Loading Page and Message Page if any error
+14.Add Add to cart function on button
+15.Add check stock status
