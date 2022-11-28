@@ -16,4 +16,5 @@ MERN E-COMMERCE
 14.Add Add to cart function on button
 15.Add check stock status
 16.Add Add to cart page
-1.Add Complete cart page
+17.Add Complete cart page
+18.Add All Button functionality
