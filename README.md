@@ -1,5 +1,6 @@
 MERN E-COMMERCE
-
+username: Diamond_Store
+password: jFaSePuEfZkSI7K1
 1: start
 2: Install Tools
 3: Create React App
@@ -19,3 +20,4 @@ MERN E-COMMERCE
 17.Add Complete cart page
 18.Add All Button functionality
 19.Add Sign In Screen
+21.Create product and user data with database

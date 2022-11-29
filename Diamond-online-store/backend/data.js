@@ -1,7 +1,22 @@
+import bcrypt from 'bcryptjs';
 const data = {
+  users: [
+    {
+      name: 'Rehan Saboor',
+      email: 'malikrehan11879@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'Mohsin Ali',
+      email: 'mohsinali89@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Nike Slim shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
@@ -14,7 +29,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Adidas Fit shirt',
       slug: 'adidas-fit-shirt',
       category: 'Shirts',
@@ -27,7 +42,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Nike Slim Pant',
       slug: 'nike-slim-pant',
       category: 'pants',
@@ -40,7 +55,7 @@ const data = {
       description: 'high quality pants',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Adidas Fit Pant',
       slug: 'addidas-fit-pant',
       category: 'Pants',
@@ -53,7 +68,7 @@ const data = {
       description: 'high quality pants',
     },
     {
-      _id: '5',
+      // _id: '5',
       name: 'Nike Normal shirt',
       slug: 'nike-normal-shirt',
       category: 'Shirts',
@@ -66,7 +81,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      _id: '6',
+      // _id: '6',
       name: 'Adidas loose shirt',
       slug: 'adidas-loose-shirt',
       category: 'Shirts',
@@ -79,7 +94,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      _id: '7',
+      // _id: '7',
       name: 'Nike Normal Pant',
       slug: 'nike-normal-pant',
       category: 'pants',
@@ -92,7 +107,7 @@ const data = {
       description: 'high quality pants',
     },
     {
-      _id: '8',
+      // _id: '8',
       name: 'Adidas Loose Pant',
       slug: 'addidas-loose-pant',
       category: 'Pants',
